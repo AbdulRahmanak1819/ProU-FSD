@@ -44,4 +44,5 @@ There are two parts, the `backend` and the `client`. You need to run both in sep
 
 ## Screenshot
 
-*(I'll add a screenshot of the app running here once it's on GitHub.)*
+![Alt text for the image](./screenshots/image1.png)
+![Another alt text](./screenshots/image2.png)
