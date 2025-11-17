@@ -1,6 +1,6 @@
-# ProU Assessment - Employee/Task Manager
+# Employee/Task Manager
 
-This is my full-stack (MERN) project for the ProU assessment.
+This is a full-stack (MERN) project.
 
 ---
 
