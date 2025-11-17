@@ -8,20 +8,30 @@ import CreateTask from './components/CreateTask';
 function App() {
   return (
     <div className="App">
-      <h1>Employee and Task Manager</h1>
+      <header className="app-header">
+        <h1>Employee and Task Manager</h1>
+      </header>
       
-      {}
-      <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '20px' }}>
-        <CreateEmployee />
-        <CreateTask /> {}
+      {/* Container for the "Create" forms */}
+      <div className="forms-container">
+        <div className="form-card">
+          <CreateEmployee />
+        </div>
+        <div className="form-card">
+          <CreateTask />
+        </div>
       </div>
 
-      <hr />
+      <hr className="divider" />
       
-      {}
-      <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-        <EmployeeList />
-        <TaskList />
+      {/* Container for the "Lists" */}
+      <div className="lists-container">
+        <div className="list-card">
+          <EmployeeList />
+        </div>
+        <div className="list-card">
+          <TaskList />
+        </div>
       </div>
       
     </div>
